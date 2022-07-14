@@ -1,0 +1,85 @@
+﻿body{margin:0; padding:0; font-family: Calibri; font-size: 13px; color:#646564; }
+.title{font-family:Calibri; color:#646564; font-size:20px; font-weight:normal; float:left;}
+.login_icon{ background:url(../images/icons/login_icon.jpg) no-repeat; height:20px; width:17px; float:left; padding-left:5px; margin-top:2px;}
+.caption_gray{ font-family:Calibri; color:#646564; font-size:14px; text-transform:capitalize;}
+.login_input { outline:none; border:1px solid #d9d5d6; height:40px; width:270px; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.075) inset; font-family: Calibri; font-size: 13px; color:#646564; padding:3px;  }
+.login_input:focus {box-shadow: 0 0 5px #ff8000; -webkit-box-shadow: 0 0 5px #ff8000; -moz-box-shadow: 0 0 5px #aeafae;border:1px solid #fca146; height:40px; width:270px;}
+.body_black{ font-size:13px; color:#000; font-family:Calibri; font-weight:normal; text-decoration:none;}
+.caption_blue{font-family:Calibri; color:#ff8000; font-size:14px; font-weight:normal; text-transform:capitalize;}
+.caption_blue a{font-family:Calibri; color:#ff8000; font-size:14px; text-decoration:none; font-weight:normal; text-transform:capitalize;}
+.caption_blue a:hover{font-family:Calibri; color:#ff8000; text-decoration:underline;}
+.btn_login{text-align:left; background:#ff8000; font-family:Calibri; font-size:14px; color:#fff; text-transform:uppercase; text-align:center; text-decoration:none; font-weight:normal; padding:8px 25px 8px 25px;border: solid 1px #ff8000;cursor:pointer;}
+.btn_login:hover{ background:#a0a2a0; font-family:Calibri; font-size:14px; color:#000000; text-transform:uppercase; text-align:center; text-decoration:none; font-weight:normal; padding:8px 25px 8px 25px;border: solid 1px #a0a2a0;}
+.validation_summary{color:#ed273a; font-family:Calibri; font-size:14px; font-weight:normal; padding-bottom:5px;}
+.nav_{width:1000px; margin:0 auto;}
+/*
+.nav_body{background:url(../images/nav-bg.jpg) left top repeat-x; margin-top:10px; padding:0; }
+.nav{width:1000px; margin:0 auto; height:39px;}
+.nav ul { list-style:none; margin: 0px 0 0 0px; float:left; padding-left:0;}
+.nav ul li {float:left; position:relative;  background:url(../images/sep.jpg) right center no-repeat; height:39px;}
+.nav li a{ font-family:Calibri; text-transform:uppercase; font-size:14px; color:#000000; text-decoration:none; padding: 11px 19px; float:left;}
+.nav li a:hover{ background:url(../images/nav-hover.jpg) left top repeat-x; outline:0 none; color:#ffffff;}
+.nav li a.active{background:url(../images/nav-hover.jpg) left top repeat-x; outline:0 none; color:#ffffff;}
+*/
+a.logout{color:#ff8000; float:left; font-family:Calibri; text-transform:uppercase; font-size:14px; text-decoration:none; margin:11px 0 0 5px; }
+a.logout:hover{ text-decoration:underline; }
+.chart-b{ border:#e1e1df solid 1px;}    
+.nav_logout_{background:url(../images/icons/logout-icon.png) left top no-repeat; height:14px; width:15px; float:left; margin:12px 0 0 12px; float:left; }
+.icon_welcome{ background:url(../images/icons/welcome.png) no-repeat; height:14px; width:11px; padding-right:2px;}
+.icon_login{background:url(../images/icons/login.jpg) no-repeat; height:15px; width:10px; padding-right:2px;}
+.icon_date{background:url(../images/icons/date.jpg) no-repeat; height:15px; width:12px; padding-right:2px;}
+.icon_title{background:url(../images/icons/view-ticket-icon.jpg) no-repeat; height:16px; width:16px; padding-right:3px; margin-top: 6px; float:left;}
+.inputs { outline:none; border:1px solid #d9d5d6; height:20px; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.075) inset; font-family: Calibri; font-size: 13px; color:#646564; padding:3px;  }
+.inputs:focus {box-shadow: 0 0 5px #ff8000; -webkit-box-shadow: 0 0 5px #ff8000; -moz-box-shadow: 0 0 5px #aeafae; border:1px solid #fca146;}
+.select_option{ height:28px; border:#d9d5d6 1px solid; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.075) inset; font-family:Calibri; font-size:13px; color:#646564; padding:3px;}
+.select_option:focus {box-shadow: 0 0 5px #ff8000; -webkit-box-shadow: 0 0 5px #ff8000; -moz-box-shadow: 0 0 5px #aeafae; border:1px solid #fca146;}
+.textarea{ border:#d9d5d6 1px solid; width:816px; height:59px; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.075) inset; color:#646564; font-family:Calibri; font-size:13px; font-weight:normal; padding:5px; overflow:hidden;}
+.textarea:focus {box-shadow: 0 0 5px #ff8000; -webkit-box-shadow: 0 0 5px #ff8000; -moz-box-shadow: 0 0 5px #aeafae; border:1px solid #fca146;}
+.btn_search{background:#ff8000; font-family:Calibri; font-size:14px; color:#ffffff; text-transform:uppercase; text-align:center; text-decoration:none; font-weight:normal; padding:4px 20px 4px 20px; margin-left:2px;border: solid 1px #ff8000;cursor:pointer;}
+.btn_search:hover{ background:#a0a2a0; font-family:Calibri; font-size:14px; color:#000000; text-transform:uppercase; text-align:center; text-decoration:none; font-weight:normal; padding:4px 20px 4px 20px;border: solid 1px #a0a2a0;}
+.body_gray{ font-size:13px; color:#646564; font-family:Calibri; font-weight:normal; text-decoration:none;}
+.bg_blue{ background:#ffc65f; font-family:Calibri; font-size:13px; color:#000; text-align:center; font-weight:bold; border:1px solid #b7b8b6; text-transform:uppercase;}
+.bg_blue a{ font-family:Calibri; font-size:13px; color:#000; text-align:center; font-weight:bold; text-transform:uppercase; text-decoration:none;}
+.bg_blue a:hover{ color:#000; text-decoration:underline;}
+.bg_red{background:#fef2f2;  border:1px solid #b7b8b6; border-top:none; }
+.bg_red a{font-family:Calibri; font-size:13px; color:#000; text-align:center; font-weight:normal; text-decoration:none;}
+.bg_red a:hover{font-family:Calibri; font-size:13px; color:#ff8000; text-align:center; font-weight:normal; text-decoration:underline;}
+.bg_yellow{background:#fdfce5; border:1px solid #b7b8b6; border-top:none; }
+.bg_yellow a{font-family:Calibri; font-size:13px; color:#000; text-align:center; font-weight:normal; text-decoration:none;}
+.bg_yellow a:hover{font-family:Calibri; font-size:13px; color:#ff8000; text-align:center; font-weight:normal; text-decoration:underline;}
+.bg_green{background:#f3ffef; border:1px solid #b7b8b6; border-top:none;}
+.bg_green a{font-family:Calibri; font-size:13px; color:#000; text-align:center; font-weight:normal; text-decoration:none;}
+.bg_green a:hover{font-family:Calibri; font-size:13px; color:#ff8000; text-align:center; font-weight:normal; text-decoration:underline;}
+.bg_l_blue{background:White; border:1px solid #b7b8b6; border-top:none;}
+.bg_l_blue a{font-family:Calibri; font-size:13px; color:#000; text-align:center; font-weight:normal; text-decoration:none;}
+.bg_l_blue a:hover{font-family:Calibri; font-size:13px; color:#ff8000; text-align:center; font-weight:normal; text-decoration:underline;}
+.bg_gray_t{color:#000000; font-family:Calibri; font-size:13px; font-weight:normal; background:#f7f7f5;}
+a.anchor{font-family:Calibri; font-size:13px; color:#ff8000; text-align:center; font-weight:bold; text-decoration:none;}
+a.anchor:hover{ text-decoration:underline;}
+/*--------------------Navigation--------------------*/
+.nav{width:1000px; margin:0 auto; height:39px;}
+.nav_body{background:url(../images/nav-bg.jpg) left top repeat-x; margin-top:5px; padding:0; }
+ul.menu {list-style:none; margin:0; padding:0; float:left;height:49px;}
+ul.menu * {margin:0; padding:0}
+ul.menu a {display:block; color:#000000; text-decoration:none;}
+ul.menu li {position:relative; float:left;}
+ul.menu ul {position:absolute; top:38px; left:0; background:#dddddb; display:none; opacity:0; list-style:none}
+ul.menu ul li {position:relative;  border-top:none; margin: 0px 0 0 0px; float:left; }
+ul.menu ul li a {display:block; padding:7px 7px 7px; color:#646564; width:170px; border-bottom: #aaa 1px solid;}
+ul.menu ul li a:hover {background-color:#f6b52e; color:#000000; text-transform:capitalize; }
+ul.menu ul ul {left:184px; top:-1px;}
+ul.menu .menulink {font-family:Calibri; text-transform:uppercase; font-size:14px; color:#646564; text-decoration:none; padding: 11px 19px; float:left;  background:url(../images/sep.jpg) right top no-repeat; height:39px; margin-top:0px; }
+ul.menu .menulink:hover, ul.menu .menuhover { background:url(../images/nav-hover.jpg) left top repeat-x; outline:0 none; color:#000000;}
+ul.menu .menulink_active {font-family:Calibri; text-transform:uppercase; font-size:14px; color:#000000; text-decoration:none; padding: 11px 19px; float:left;  background:url(../images/sep.jpg) right top no-repeat; height:39px; margin-top:1px; }
+ul.menu li.active{ background:url(../images/nav-hover.jpg) left top repeat-x; outline:0 none; color:#000000;}
+ul.menu .sub {background:url(../images/arrow.gif) 150px 10px no-repeat;}
+ul.menu .topline {border-top:1px solid #aaa;}
+/*--------------------Navigation End--------------------*/
+
+#overlay{ position: fixed; z-index: 99; top: 0px; left: 0px; background-color: #f8f8f8; width: 100%; height: 100%; filter: Alpha(Opacity=90); opacity: 0.9; -moz-opacity: 0.9; }
+#theprogress { background-color: #fff; border: 1px solid #ccc; padding: 10px; width: 140px; height: 30px; line-height: 30px; text-align: center; filter: Alpha(Opacity=100); opacity: 1; -moz-opacity: 1;}
+#modalprogress { position: absolute; top: 40%; left: 50%; margin: -11px 0 0 -100px; color: #000; font-size: 14px; }
+        
+.btn_white{background:White; font-family:Calibri; font-size:14px; color:White; text-transform:uppercase; text-align:center; text-decoration:none; font-weight:normal; padding:4px 20px 4px 20px; margin-left:2px;border: solid 0px White;}
+.btn_white:hover{ background:White; font-family:Calibri; font-size:14px; color:White; text-transform:uppercase; text-align:center; text-decoration:none; font-weight:normal; padding:4px 20px 4px 20px;border: solid 0px White;}
+
